@@ -1,8 +1,8 @@
 //Rewrite to www
 Options +FollowSymLinks
 RewriteEngine on
-RewriteCond %{HTTP_HOST} ^constructoralacantera.com[nc]
-RewriteRule ^(.*)$ http://www.constructoralacantera.com/$1 [r=301,nc]
+RewriteCond %{HTTP_HOST} ^agendasbarcelona.com[nc]
+RewriteRule ^(.*)$ http://http://www.agendasbarcelona.com//$1 [r=301,nc]
 
 //Caching schema
 <FilesMatch "\.(jpg|png|php|html|css|js|ico|eot|svg|ttf|woff|woff2)$">
