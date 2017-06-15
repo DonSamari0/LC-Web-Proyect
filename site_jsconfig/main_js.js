@@ -1,0 +1,2 @@
+$(document).ready(function(){var inicial=0;$(window).scroll(function(){if($(window).scrollTop()<36){$("#header").removeClass("static_header");}else{var scrolles=$(window).scrollTop();if(scrolles<inicial){$("#header").addClass("static_header");inicial=scrolles;}else{inicial=scrolles;$("#header").removeClass("static_header")
+$("#logo_h").removeClass("logo_hstatic")}}});});
